@@ -1,0 +1,55 @@
+.global{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+header{
+    background-color: rgb(0, 70, 150);
+    color: white;
+    width: 100%;
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+}
+
+.mainDiv .main{
+    background-color: green;
+    color: white;
+    align-items: flex-start;
+    flex-basis: 80%;
+}
+
+.parent{
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.parent div{
+    flex-basis: 20%;
+    background-color: rgb(27, 95, 27);
+    border-radius: 15px;
+}
+
+.parent div h1{
+    text-align: center;
+}
+
+.mainDiv .sidebar{
+    background-color: red;
+    color: white;
+    align-items: flex-end;
+    flex-basis: 20%;
+}
+
+footer{
+    background-color: rgb(0, 70, 150);;
+    color: white;
+    width: 100%;
+}
